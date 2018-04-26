@@ -1,0 +1,52 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=adder
+
+[Library]
+adder=.\adder.LIB
+
+[$LibMap$]
+adder=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=adderone_ent|addertwo_ent|0 addersixteen_ent_tb|tb_architecture|0 
+ShowHide=ShowTopLevel
+Selected=
+
+[Groups]
+TestBench=1
+
+[Files]
+/Carrylockaheadfourbit.vhd=-1
+/Adderfourbits.vhd=-1
+/addersixteenbits.vhd=-1
+/adderonebit.vhd=-1
+/untitled.asdb=-1
+/untitled.awc=-1
+TestBench/addersixteen_ent_TB.vhd=-1
+TestBench/addersixteen_ent_TB_runtest.do=-1
+
+[Files.Data]
+.\src\Carrylockaheadfourbit.vhd=VHDL Source Code
+.\src\Adderfourbits.vhd=VHDL Source Code
+.\src\addersixteenbits.vhd=VHDL Source Code
+.\src\adderonebit.vhd=VHDL Source Code
+.\src\untitled.asdb=Accelerated Waveform File
+.\src\untitled.awc=Accelerated Waveform Configuration
+.\src\TestBench\addersixteen_ent_TB.vhd=VHDL Test Bench
+.\src\TestBench\addersixteen_ent_TB_runtest.do=Macro
+

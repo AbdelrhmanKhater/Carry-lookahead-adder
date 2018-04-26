@@ -1,0 +1,15 @@
+425
+~E 1 "./src/addersixteenbits.vhd" 28 addersixteen_ent
+~A 1 "./src/addersixteenbits.vhd" 39 addersixteent_arch
+~E 1 "./src/TestBench/adder_ent_TB.vhd" 6 adder_ent_tb
+~A 1 "./src/TestBench/adder_ent_TB.vhd" 9 tb_architecture
+~E 1 "./src/Adderfourbits.vhd" 28 adder_ent
+~A 1 "./src/Adderfourbits.vhd" 41 adder_arch
+~E 1 "./src/adderonebit.vhd" 28 adderone_ent
+~A 1 "./src/adderonebit.vhd" 41 addertwo_ent
+~E 1 "./src/Carrylockaheadfourbit.vhd" 28 carry_ent
+~A 1 "./src/Carrylockaheadfourbit.vhd" 39 carry_arch
+~E 1 "./src/TestBench/addersixteen_ent_TB.vhd" 6 addersixteen_ent_tb
+~A 1 "./src/TestBench/addersixteen_ent_TB.vhd" 9 tb_architecture
+~C 1 "./src/TestBench/adder_ent_TB.vhd" 52 testbench_for_adder_ent
+~C 1 "./src/TestBench/addersixteen_ent_TB.vhd" 49 testbench_for_addersixteen_ent

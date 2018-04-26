@@ -1,0 +1,1 @@
+-w -s "f:\VHDL\Carrylockaheadadder\library.cfg"  -j "f:\VHDL\Carrylockaheadadder\adder\projlib.cfg"  -d "f:\VHDL\Carrylockaheadadder\adder\compile"   -work adder  -dbg -e 100 -2002 "f:\\VHDL\\Carrylockaheadadder\\adder\\src\\TestBench\\addersixteen_ent_TB.vhd" 

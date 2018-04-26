@@ -1,0 +1,86 @@
+timestamp=1520206675077
+
+[adder_ent]
+A/adder_arch=21|./src/Adderfourbits.vhd|41|1*178739
+B/adder_arch=3*130498
+I=0*48754
+I/adder_arch=0*51492
+M=11|0|v147|1520204971248|./src/Adderfourbits.vhd|0*48352*0x6fea1d47df46cc65a7fcadbc37c753f38da91e7f|0*48674*0x7bd7e13dc0415552f89596087806a8cf
+M/adder_arch=21|0|v147|1520205007735|./src/Adderfourbits.vhd|0*50394*0x6fd6c1f65fbdb8ea640616816c84c72ed19674b2|0*51398*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/Adderfourbits.vhd|28
+
+[adder_ent_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./src/TestBench/adder_ent_TB.vhd|9|1*62324
+B/tb_architecture=3*24678
+I=0*6379
+I/tb_architecture=I/TB_ARCHITECTURE 0*22309
+M=11|0|v147|1518933617502|./src/TestBench/adder_ent_TB.vhd|0*6115*0x8f74fea7a0a8b1854897d7b90c076670c6b6cc37|0*6287*0x7bd7e13dc0415552f89596087806a8cf
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|v147|1518981249994|./src/TestBench/adder_ent_TB.vhd|0*21563*0x860d96e96f88ee34963c375fa479699096dcc1ed|0*22198*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/TestBench/adder_ent_TB.vhd|6
+
+[adderone_ent]
+A/addertwo_ent=21|./src/adderonebit.vhd|41|1*194363
+B/addertwo_ent=3*132482
+I=0*47576
+I/addertwo_ent=0*47982
+M=11|0|v147|1520204919445|./src/adderonebit.vhd|0*47212*0xca518b005cd179ba1aa0d62657fbd3517e500331|0*47495*0x7bd7e13dc0415552f89596087806a8cf
+M/addertwo_ent=21|0|v147|1520205979879|./src/adderonebit.vhd|0*47682*0x9d34a98b2102888c8369751a017a81c5657d455e|0*47885*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/adderonebit.vhd|28
+
+[addersixteen_ent]
+A/addersixteent_arch=21|./src/addersixteenbits.vhd|39|1*197784
+I=0*13739
+I/addersixteent_arch=0*52900
+M=11|0|v147|1518979376415|./src/addersixteenbits.vhd|0*13343*0x5fb5570a3b3e775f2db3dddae2fc133dd7cef9f2|0*13649*0x7bd7e13dc0415552f89596087806a8cf
+M/addersixteent_arch=21|0|v147|1520206256945|./src/addersixteenbits.vhd|0*51722*0x34beb7690739e1529fb099b58769500008e76e7d|0*52788*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/addersixteenbits.vhd|28
+
+[addersixteen_ent_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./src/TestBench/addersixteen_ent_TB.vhd|9|1*214493
+B/tb_architecture=3*136436
+I=0*15232
+I/tb_architecture=I/TB_ARCHITECTURE 0*57709
+M=11|0|v147|1518979638888|./src/TestBench/addersixteen_ent_TB.vhd|0*14925*0xee2961c975e7c635a7d806f69fb51e7b78d70f71|0*15126*0x7bd7e13dc0415552f89596087806a8cf
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|v147|1520206674954|./src/TestBench/addersixteen_ent_TB.vhd|0*56950*0x8243c607332ce9765e85b7ec4c298fac99049bfb|0*57584*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/TestBench/addersixteen_ent_TB.vhd|6
+
+[carry_ent]
+A/carry_arch=A/Carry_arch 21|./src/Carrylockaheadfourbit.vhd|39|1*195806
+B/carry_arch=3*133834
+I=0*28763
+I/carry_arch=I/Carry_arch 0*29459
+M=11|0|v147|1519078519642|./src/Carrylockaheadfourbit.vhd|0*28382*0x4c651d20bc62471916c1f7f8fb028517483064d0|0*28675*0x7bd7e13dc0415552f89596087806a8cf
+M/carry_arch=M/Carry_arch 21|0|v147|1520206066440|./src/Carrylockaheadfourbit.vhd|0*28866*0xf72d9014007cd926eed248c886523f425fbf6e24|0*29357*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/Carrylockaheadfourbit.vhd|28
+
+[testbench_for_adder_ent]
+E=1*64864
+I=0*20100
+M=2|0|v147|1518981250007|./src/TestBench/adder_ent_TB.vhd|0*19698*0x2f79c4ac322b1825e4b813272cab434f48bcfd3f|0*19982*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/TestBench/adder_ent_TB.vhd|52
+
+[testbench_for_addersixteen_ent]
+E=1*216937
+I=0*37218
+M=2|0|v147|1520206674972|./src/TestBench/addersixteen_ent_TB.vhd|0*36731*0x43130049119b33047f6fc85607bab53083e38ee6|0*37079*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/TestBench/addersixteen_ent_TB.vhd|49
+
+[~A]
+ModifyID=425
+Version=73
+
+[~MFT]
+0=367|0adder.mgf|57709|46880
+1=181|1adder.mgf|216937|198317
+3=104|3adder.mgf|136436|130498
+
+[~U]
+adder_ent=11|0*48101|
+adder_ent_tb=11|0*6038|
+adderone_ent=11|0*46992|
+addersixteen_ent=11|0*13108|
+addersixteen_ent_tb=11|0*14827|
+carry_ent=11|0*28168|
+testbench_for_adder_ent=TESTBENCH_FOR_adder_ent 2||
+testbench_for_addersixteen_ent=TESTBENCH_FOR_addersixteen_ent 2||
+
